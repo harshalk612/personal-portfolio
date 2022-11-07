@@ -1,0 +1,296 @@
+========== HEADER ==========
+.nav__logo
+HarshalK.
+
+.nav__link
+Home - Skills - Qualification - Services - Projects - Contact
+
+
+========== HOME ==========
+.home__title
+Hi, I’m Harshal<br>
+Tech Enthusiast<br>
+Based In Surat, India<br>
+
+.home__social
+https://www.linkedin.com/in/harshalkakaiya
+https://github.com/harshalk612
+https://twitter.com/harshal_k06
+https://instagram.com/_harshal06
+
+.home__info-title
+BIOGRAPHY
+CONTACT
+SERVICES
+YEARS OF EXPERIENCE
+COMPLETED PROJECTS
+COMPANIES WORKED
+
+.home__info-description .home__info-number
+Hi, I'm Harshal Kakaiya, IT Student. Passionate about learning new technologies. Based in Surat, India.
+
+Surat, Gujarat, India<br>
+harshalkakaiya61@gmail.com<br>
+(+91) 95375-93120<br>
+
+Data Scientist<br>
+Data Analyst<br>
+Machine Learning Engineer<br>
+
+00
+
+5+	
+
+0
+
+
+========== SKILLS ==========
+.section__title
+Skills
+
+.section__subtitle
+My favorite skills
+
+.skills__title
+Data Science
+Web Development
+
+.skills__name .skills__subtitle
+
+Python
+Advanced
+
+Machine Learning
+Intermediate
+
+Deep Learning
+Intermediate
+
+MySQL
+Advanced
+
+MongoDB
+Intermediate
+
+MLops 
+Basic
+
+Dockers
+Intermediate
+
+Git
+Advanced
+
+=========================================
+
+Flask
+Advanced
+
+Django
+Intermediate
+
+HTML
+Intermediate
+
+CSS
+Intermediate
+
+JavaScript
+Basic
+
+
+========== QUALIFICATION ==========
+.section__title
+Qualification
+
+.section__subtitle
+Education & Certifications
+
+.qualification__title
+Education
+Certifications
+
+.qualification__name .qualification__country .qualification__year
+
+B.E - Information Technology
+Sarvajanik College of Engr. & Tech.
+July 2019 - June 2023
+
+XII Class - PCM (GSEB)
+P.P. Savani Vidhya Sankul
+June 2017 - July 2019
+
+X Class - GSEB
+Gajera Vidhyabhavan
+July 2016 - May 2017
+
+===========================================================
+
+Fundamentals of Python
+Great Learning
+September 2022 - Octomber 2022
+
+Pandas
+Kaggle
+September 2022 - Octomber 2022
+
+Will add more when do more courses 
+
+========== SERVICES ==========
+.section__title
+Services
+
+.section__subtitle
+What i offer
+
+.services__title .services__description
+Data<br>
+Scientist
+
+Data Scientists are responsible for leveraging 
+their programming skills to develop automated systems 
+that help companies improve business operations.
+
+Data <br>
+Analyst
+
+With the help of tableu or python analyze 
+the data of the business or client needs 
+which help them to solve business problems.
+
+ML<br>
+Engineer
+
+Build various types of ML and DL models 
+according to business or client needs in 
+which it helps to solve complex business issues.
+
+
+========== PROJECTS ==========
+.section__title
+Projects
+
+.section__subtitle
+Most recent work
+
+
+.projects__subtitle .projects__title .projects__button
+Python
+Virtual Assistant
+Github
+
+https://github.com/harshalk612/Virtual-Assistant-Using-Python
+
+Will add more when i will do more projects
+
+========== TESTIMONIAL ==========
+.section__title
+Testimonial
+
+.section__subtitle
+My client saying
+
+.testimonial__description .testimonial__name .testimonial__subtitle
+“Working with Harshal is to give a good 
+impression, I carry out my project at a good 
+cost, with excellent quality and attention. 
+Great service and recommended.”
+
+Klay Harris
+Client
+
+Mary Lens
+Client
+
+Anna Chel
+Client
+
+will comment out for now 
+yes !!!!!!!!
+
+========== CONTACT ==========
+.section__title
+Contact Me
+
+.section__subtitle
+Get in touch
+
+.contact__title
+Talk to me
+Write me your project
+
+.contact__data-title .contact__data-info .contact__button
+Email
+harshalkakaiya61@gmail.com
+
+Whatsapp
+(+91) 95375-93120
+Write me
+
+<!-- Insert a real number plus country code -->
+"https://api.whatsapp.com/send?phone=919537593120&text=Hello, Harshal!"
+
+Messenger
+@harshal.kakaiya6
+Message me
+
+<!-- Insert your brand name or profile -->
+https://m.me/harshal.kakaiya6
+
+.contact__form-tag | placeholder
+Names
+Write your names
+
+Mail
+Write your email
+
+Project
+Write your project
+
+.contact__button
+Submit
+
+========== EMAIL JS CONTACT ==========
+
+// Check if the field has a value
+	// Add and remove color
+
+	// Show message	
+		Write all the input fields 
+
+// serviceID - templateID - #form - publicKey
+	// Show message and add color
+		Message sent 
+	
+	// Remove message after five seconds
+
+	// Send Error
+		OOPS! SOMETHING HAS FAILED...
+
+// To clear the input field
+========== FOOTER ==========
+.footer__title
+HarshalK.
+
+<p>
+Tech Enthusiast | Student
+
+.footer__link
+Home
+Skills
+Projects
+
+.footer__social-link
+https://www.linkedin.com/in/harshalkakaiya
+https://github.com/harshalk612
+https://twitter.com/harshal_k06
+https://instagram.com/_harshal06
+
+
+
+.footer__copy
+Made with ❤ | Designed and Developed by Harshal Kakaiya
+
+
+
+
