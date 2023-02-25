@@ -1,0 +1,9 @@
+list = []
+
+length_list = int(input("Enter how many elements are there in list: "))
+
+for i in range(length_list):
+    item = input("Enter the element %d"%i)
+    list.append(item)
+
+print(list)
