@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -24,8 +24,8 @@
 
 	/*========== Font and typography ==========*/
 	/*.5rem = 8px | 1rem = 16px ...*/
-	--body-font: "Roboto", sans-serif;
-	--title-font: "Lora", serif;
+	--body-font: 'Roboto', sans-serif;
+	--title-font: 'Lora', serif;
 	--biggest-font-size: 1.5rem;
 	--h1-font-size: 1.5rem;
 	--h2-font-size: 1.25rem;
@@ -684,7 +684,7 @@ body.dark-theme {
 
 .projects__container .swiper-button-prev::after,
 .projects__container .swiper-button-next::after {
-	content: "";
+	content: '';
 }
 
 .projects__container .swiper-button-prev,
@@ -766,7 +766,7 @@ body.dark-theme {
 
 .testimonial__container .swiper-button-prev::after,
 .testimonial__container .swiper-button-next::after {
-	content: "";
+	content: '';
 }
 
 .testimonial__container .swiper-button-prev,
@@ -1258,6 +1258,13 @@ body.dark-theme {
 		border-radius: 10.6rem;
 	}
 
+	.home__perfil img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover; /* Ensures the image covers the container */
+		border-radius: 10.6rem;
+		transform: scale(1); /* Remove scaling */
+	}
 	.home__shape-waves {
 		width: 100px;
 		left: -4rem;
