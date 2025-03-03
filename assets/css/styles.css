@@ -583,13 +583,13 @@ body.dark-theme {
 	text-decoration: underline;
 }
 
-/*=============== SERVICES ===============*/
-.services__container {
+/*=============== roles ===============*/
+.roles__container {
 	row-gap: 2.5rem;
 	justify-content: center;
 }
 
-.services__card {
+.roles__card {
 	position: relative;
 	width: 228px;
 	height: 322px;
@@ -600,7 +600,7 @@ body.dark-theme {
 	transition: background 0.4s; /* for dark mode animation */
 }
 
-.services__card i {
+.roles__card i {
 	display: block;
 	font-size: 2rem;
 	color: var(--title-color);
@@ -608,13 +608,13 @@ body.dark-theme {
 	transition: transform 0.8s;
 }
 
-.services__title {
+.roles__title {
 	font-size: var(--h2-font-size);
 	font-weight: var(--font-semi-bold);
 	margin-bottom: 1.5rem;
 }
 
-.services__border {
+.roles__border {
 	width: 248px;
 	height: 342px;
 	border: 1.8px solid var(--text-color-light);
@@ -628,11 +628,11 @@ body.dark-theme {
 	opacity: 0;
 }
 
-.services__card:hover i {
+.roles__card:hover i {
 	transform: rotateY(360deg);
 }
 
-.services__card:hover .services__border {
+.roles__card:hover .roles__border {
 	opacity: 1;
 }
 
@@ -1149,7 +1149,7 @@ body.dark-theme {
 	}
 
 	.qualification__container,
-	.services__container,
+	.roles__container,
 	.contact__container {
 		grid-template-columns: repeat(2, max-content);
 	}
@@ -1159,7 +1159,7 @@ body.dark-theme {
 		column-gap: 10rem;
 	}
 
-	.services__container {
+	.roles__container {
 		column-gap: 5rem;
 	}
 
@@ -1368,22 +1368,22 @@ body.dark-theme {
 		bottom: 5rem;
 	}
 
-	.services__container {
+	.roles__container {
 		grid-template-columns: repeat(3, max-content);
 	}
 
-	.services__card {
+	.roles__card {
 		width: 245px;
 		height: 345px;
 		border-radius: 7.6rem;
 		padding: 3.5rem 1.5rem;
 	}
 
-	.services__card i {
+	.roles__card i {
 		font-size: 2.5rem;
 	}
 
-	.services__border {
+	.roles__border {
 		width: 265px;
 		height: 365px;
 		border-radius: 8.25rem;
