@@ -648,8 +648,10 @@ body.dark-theme {
 
 .projects__img {
 	width: 250px;
+	height: 200px;
 	border-radius: 0.75rem;
 	margin-bottom: 1.25rem;
+	object-fit: cover;
 }
 
 .projects__subtitle {
