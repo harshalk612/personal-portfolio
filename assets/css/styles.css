@@ -308,6 +308,7 @@ body.dark-theme {
 	font-size: var(--biggest-font-size);
 	letter-spacing: 0.3px;
 	margin-bottom: 0.5rem;
+	white-space: nowrap;
 }
 
 .home__blob {
@@ -443,7 +444,7 @@ body.dark-theme {
 }
 
 .skills__info {
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(4, 1fr);
 	gap: 2.5rem 2rem;
 }
 
@@ -1018,7 +1019,9 @@ body.dark-theme {
 	font-size: 1.1rem;
 	color: var(--title-color);
 	z-index: var(--z-tooltip);
-	transition: bottom 0.3s, transform 0.3s;
+	transition:
+		bottom 0.3s,
+		transform 0.3s;
 }
 
 .scrollup:hover {
