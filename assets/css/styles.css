@@ -400,17 +400,22 @@ body.dark-theme {
 .home__resume {
 	width: max-content;
 	margin-top: 0.5rem;
-	color: var(--title-color);
+	color: var(--first-color);
 	display: inline-flex;
 	align-items: center;
 	column-gap: 0.35rem;
 	font-weight: var(--font-medium);
+	transition: all 0.3s;
 }
 
 .home__resume i {
 	font-size: 1rem;
 	transition: transform 0.3s;
 	margin-top: 0.15rem;
+}
+
+.home__resume:hover {
+	text-shadow: 0 0 8px var(--first-color);
 }
 
 .home__resume:hover i {
@@ -584,57 +589,76 @@ body.dark-theme {
 	text-decoration: underline;
 }
 
-/*=============== roles ===============*/
-.roles__container {
-	row-gap: 2.5rem;
-	justify-content: center;
-}
-
-.roles__card {
+/*=============== EXPERIENCE ===============*/
+.experience {
 	position: relative;
-	width: 228px;
-	height: 322px;
-	background-color: var(--container-color);
-	text-align: center;
-	padding: 3.5rem 1rem;
-	border-radius: 7.25rem;
-	transition: background 0.4s; /* for dark mode animation */
 }
 
-.roles__card i {
-	display: block;
-	font-size: 2rem;
-	color: var(--title-color);
-	margin-bottom: 0.75rem;
-	transition: transform 0.8s;
+.experience__container {
+	row-gap: 3.5rem;
 }
 
-.roles__title {
-	font-size: var(--h2-font-size);
+.experience__title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 0.5rem;
+	font-size: var(--small-font-size);
 	font-weight: var(--font-semi-bold);
-	margin-bottom: 1.5rem;
+	margin-bottom: 2rem;
 }
 
-.roles__border {
-	width: 248px;
-	height: 342px;
-	border: 1.8px solid var(--text-color-light);
-	border-radius: 7.75rem;
-	position: absolute;
-	inset: 0;
-	left: -10px;
-	margin: auto;
-	z-index: -1;
-	transition: opacity 0.6s;
-	opacity: 0;
+.experience__title i {
+	font-size: 1rem;
+	font-weight: initial;
 }
 
-.roles__card:hover i {
-	transform: rotateY(360deg);
+.experience__info {
+	display: grid;
+	row-gap: 2rem;
 }
 
-.roles__card:hover .roles__border {
-	opacity: 1;
+.experience__info > div {
+	padding-left: 1.5rem;
+	border-left: 3px solid var(--first-color);
+	transition: transform 0.3s, border-color 0.3s;
+}
+
+.experience__info > div:hover {
+	transform: translateX(0.25rem);
+	border-left-color: var(--title-color);
+}
+
+.experience__name {
+	font-size: var(--normal-font-size);
+	margin-bottom: 1.25rem;
+	font-weight: var(--font-semi-bold);
+	color: var(--title-color);
+}
+
+.experience__place,
+.experience__timeline {
+	display: block;
+	font-size: var(--small-font-size);
+	color: var(--text-color-light);
+}
+
+.experience__place {
+	margin-bottom: 0.75rem;
+}
+
+.experience__description {
+	font-size: var(--small-font-size);
+	margin-top: 1rem;
+	color: var(--text-color);
+	line-height: 1.6;
+	list-style-position: inside;
+	padding-left: 0;
+}
+
+.experience__description li {
+	margin-bottom: 0.5rem;
+	list-style-type: disc;
 }
 
 /*=============== PROJECTS ===============*/
@@ -1154,7 +1178,7 @@ body.dark-theme {
 	}
 
 	.qualification__container,
-	.roles__container,
+	.experience__container,
 	.contact__container {
 		grid-template-columns: repeat(2, max-content);
 	}
@@ -1164,7 +1188,7 @@ body.dark-theme {
 		column-gap: 10rem;
 	}
 
-	.roles__container {
+	.experience__container {
 		column-gap: 5rem;
 	}
 
@@ -1373,25 +1397,8 @@ body.dark-theme {
 		bottom: 5rem;
 	}
 
-	.roles__container {
-		grid-template-columns: repeat(3, max-content);
-	}
-
-	.roles__card {
-		width: 245px;
-		height: 345px;
-		border-radius: 7.6rem;
-		padding: 3.5rem 1.5rem;
-	}
-
-	.roles__card i {
-		font-size: 2.5rem;
-	}
-
-	.roles__border {
-		width: 265px;
-		height: 365px;
-		border-radius: 8.25rem;
+	.experience__container {
+		grid-template-columns: 1fr;
 	}
 
 	.projects__container {
